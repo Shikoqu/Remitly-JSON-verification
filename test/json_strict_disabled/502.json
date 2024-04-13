@@ -1,0 +1,13 @@
+{
+  "PolicyName": ":)",
+  "PolicyDocument": {
+    "Version": ":)",
+    "Statement": {
+      "Sid": ":)",
+      "Effect": ":)",
+      "Action": [
+        ":)"
+      ]
+    }
+  }
+}
