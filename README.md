@@ -75,7 +75,8 @@ python test_validator.py
 ## Project Structure
 The project has the following structure:
 
-* `json_schema.json`: The JSON schema against which the JSON files are validated.
+* `json_schema_strict.json`: The strict JSON schema against which the JSON files are validated according to [AWS::IAM::Role Policy](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-role-policy.html#cfn-iam-role-policy-policydocument).
+* `json_schema_notstrict.json`: The JSON schema which checks only for cruicial elements in the file.
 * `json_validator.py`: The script that validates JSON files against the schema and checks for wildcards.
 * `main.py`: The main script that runs the JSON validator.
 * `test/`: This directory contains the test cases. Each subdirectory represents a different type of test case.
